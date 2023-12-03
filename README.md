@@ -94,6 +94,7 @@ The frontend will be available at `http://localhost:5173`.
 cd Certificate-Management-Backend
 npm test
 
+![test](https://github.com/lutfulh/Certificate-Management-System/assets/25671509/9d582453-b70e-4adf-a210-aee7bba98b58)
 
 
 ![swagger](https://github.com/lutfulh/Certificate-Management-System/assets/25671509/b1e4db9d-89c9-451b-b446-f8c1a34bde2f)
@@ -101,6 +102,9 @@ npm test
 ## API Documentation
 
 The API documentation is available at `http://localhost:3000/api-docs` when the backend server is running.
+
+
+![swagger](https://github.com/lutfulh/Certificate-Management-System/assets/25671509/00979cd8-02a5-465f-9483-3b5e66669918)
 
 
 ## License
