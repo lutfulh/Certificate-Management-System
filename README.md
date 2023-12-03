@@ -10,6 +10,27 @@ This repository contains the Certificate Management System, a full-stack applica
 - `frontend/`: The React application for the user interface.
 - `backend/`: The Node.js/Express API for backend operations.
 
+### Backend (`certificate-management-system`)
+
+- `controllers/`: Contains controllers that handle incoming HTTP requests and sending responses.
+- `models/`: Manages data models and interactions with the SQLite database.
+- `routes/`: Defines API endpoints and maps them to the controller functions.
+- `services/`: Offers services like database interactions, abstracting business logic.
+- `tests/`: Contains Jest tests for the controllers to validate the API functionalities.
+- `app.js`: Configures the Express application, middleware, and routes.
+- `server.js`: Entry point of the application to start the Express server.
+- `.env`: Stores environment variables (not committed to source control).
+- `swaggerConfig.js`: Swagger configuration for API documentation.
+
+### Frontend (`certificate-management-frontend`)
+
+- `assets/`: Static assets such as images and shared CSS files.
+- `components/`: React components for building the user interface, including forms and list views and their css files.
+- `hooks/`: Custom React hooks, e.g., `useCertificates` for API interactions.
+- `types/`: TypeScript definitions and interfaces used throughout the application.
+- `App.tsx`: Root React component handling the app's routing.
+- `main.tsx`: Entry point that renders the app into the DOM.
+
 ## Getting Started
 
 ### Prerequisites
