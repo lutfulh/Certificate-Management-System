@@ -1,0 +1,54 @@
+.license-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.license-form {
+  display: flex;
+  flex-direction: column; 
+  gap: 15px;
+}
+
+.form-field {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%; 
+}
+
+.form-field:focus {
+  outline: none;
+  border-color: #0056b3;
+}
+
+.submit-button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #00408b;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+/* Specific styles for date input */
+input[type="date"].form-field {
+  padding: 9px;
+}
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+}

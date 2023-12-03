@@ -1,0 +1,68 @@
+.license-list {
+    display: flex;
+    flex-wrap: wrap;      
+    gap: 20px; 
+    padding: 20px; 
+    justify-content: center; 
+  }
+  
+  .license-item {
+    flex: 1;
+    min-width: 250px; 
+    max-width: 300px;
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 15px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .license-item h3 {
+    color: #333; 
+    margin-bottom: 10px; 
+  }
+  
+  .license-item p {
+    color: #666;
+    margin: 5px 0; 
+  }
+  
+  .license-item p strong {
+    color: #333; 
+  }
+  
+  .license-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px; 
+  }
+  
+  .license-actions button {
+    background-color: #0056b3; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+  
+  .license-actions button:hover {
+    background-color: #003d82; 
+  }
+  
+  .license-actions button:active {
+    background-color: #002c61; 
+  }
+ 
+  @media (max-width: 768px) {
+    .license-list {
+      flex-direction: column;
+    }
+  
+    .license-actions {
+      justify-content: center; 
+    }
+  }
+  
