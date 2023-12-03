@@ -10,7 +10,7 @@ This repository contains the Certificate Management System, a full-stack applica
 - `frontend/`: The React application for the user interface.
 - `backend/`: The Node.js/Express API for backend operations.
 
-### Backend (`certificate-management-system`)
+### Backend (`certificate-management-Backend`)
 
 - `controllers/`: Contains controllers that handle incoming HTTP requests and sending responses.
 - `models/`: Manages data models and interactions with the SQLite database.
