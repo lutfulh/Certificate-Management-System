@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Certificate Management System
 
 ## Overview
@@ -112,4 +112,4 @@ Made with ❤ by [Lutful Haider](https://github.com/lutfulh)
 
 =======
 # Certificate-Management-System
->>>>>>> 666009a77c7aeec12d8dd2f2baedad52dcb2d3c5
+
