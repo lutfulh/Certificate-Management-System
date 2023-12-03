@@ -95,6 +95,9 @@ cd Certificate-Management-Backend
 npm test
 
 
+
+![swagger](https://github.com/lutfulh/Certificate-Management-System/assets/25671509/b1e4db9d-89c9-451b-b446-f8c1a34bde2f)
+
 ## API Documentation
 
 The API documentation is available at `http://localhost:3000/api-docs` when the backend server is running.
